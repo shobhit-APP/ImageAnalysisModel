@@ -47,6 +47,7 @@ model = load_model(MODEL_PATH)
 # --- Mode 2: Always download from Google Drive (for Colab) ---
 # Uncomment this section for Colab use:
 # NoteBookLink In Readme
+#Model Likn in ReadMe
 # download_model_from_drive()
 # model = load_model(MODEL_PATH)
 
@@ -117,3 +118,4 @@ def predict():
 # ---------------------
 if __name__ == '__main__':
     app.run(debug=True)
+
